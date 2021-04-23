@@ -1,5 +1,5 @@
 # Initial Genre Recommendations for Microsoft
-## Author: Dominick D'Andrea
+#### Author: Dominick D'Andrea
 
 # Overview
 Microsoft has decided to create a new movie studio because they have recognized the success of other studios. However, they don’t know anything about creating movies. They have hired you to help them better understand the movie industry and explore what type of films are currently doing the best at the box office.
