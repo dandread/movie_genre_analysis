@@ -11,20 +11,20 @@ The data for this project comes from IMDB and TheMovieDB.org. There are several 
 This project uses exploratory data analysis to look at genre financial and ratings to come up with a recommendation.
 
 # Results
-The genre with the highest ROI is documentary, but it's important to consider the production budget and gross revenue (in this case, worldwide) for each genre. Documentaries may have the highest ROI, but they have the lowest gross revenue of all genres. 
+The genres with the highest ROI are Horror, Mystery, and Thriller, respectively.  
 
-![ROI](https://user-images.githubusercontent.com/41350313/115923693-9f2e1800-a44c-11eb-9e6b-605e0f64c0a1.png)
+![download](https://user-images.githubusercontent.com/41350313/116320519-5d6fdb00-a786-11eb-86e1-206bda452ca7.png)
 
-Looking one layer deeper, we see that production budgets have varied greatly over genres. Cross-referencing this information with genre ROI, Action and Comedy are attractive prospects. Action films have the second highest ROI of 111% and a median budget of $60 million and Comedy films have the fourth highest ROI of 92% with a median budget of $28 million.
+Looking one layer deeper, we see that production budgets have varied greatly over genres. Cross-referencing this information with genre ROI, Mystery and Thriller are attractive prospects. Mystery films have the second highest ROI of over 1000% and a median budget of $14 million while Thriller films have the third highest ROI of 685% with a median budget of $21 million. Horror may have the highest ROI, but the average ratings are poor and they don't have the broad appeal of Mystery or Thriller.
 
 ![production budget](https://user-images.githubusercontent.com/41350313/115923875-f0d6a280-a44c-11eb-94c1-b40532a38557.png)
 
-Adventure, Animation, and Sci-Fi movies gross more, on average, with Animation bringing in a median of $100 million. However, the production budgets for these genres are unsurprisingly high, which would not be prudent to pursue so early in the game. Theses films require a lot of special effects and computer animations, which are expensive and take time to perfect. Comedy and Action films don't gross as much, but the potential for Action films to gross high amounts is there, looking at the distribution.
+Adventure, Animation, and Sci-Fi movies gross more, on average, with Animation bringing in a median of $100 million. However, the production budgets for these genres are unsurprisingly high, which would not be prudent to pursue so early in the game. Theses films require a lot of special effects and computer animations, which are expensive and take time to perfect. Mystery and Thriller films don't gross as much, but the potential for these films to gross high amounts is there, looking at the distribution.
 
 ![worldwide gross](https://user-images.githubusercontent.com/41350313/115924292-883bf580-a44d-11eb-802e-27efe13fe41f.png)
 
 # Conclusions
-I would recommend Microsoft pursue either Action or Comedy films given the ROI and relatively modest production costs. Their ratings are vitually identical at 6.4 and 6.2, respectively. Comedy is a more crowded space, whith over 25 thousand movies while there may be more opportunity to shine with an Action film, which has about 10 thousand films.
+I would recommend Microsoft pursue either Mystery or Thriller films given the ROI and relatively modest production costs. Their ratings are vitually identical at 6.2 and 6.1, respectively. Thriller is a more crowded space, whith over 11 thousand movies while there may be more opportunity to shine with an Mystery film, which has about 4.6 thousand films.
 
 # Next Steps
 I think it's important to consider whether or not Microsoft will focus on domestic or international movies, which could change the findings depending on what is popular in the US versus abroad. Further data analysis could also uncover any relationships between ROI and runtime/production budget. Once a genre is selected, a list of producers with the highest grossing movies and ratings in that genre should be constructed, as these could be potential collaborators or producers for Microsoft.
